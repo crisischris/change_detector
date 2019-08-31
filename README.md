@@ -5,6 +5,9 @@ Change Detector is a command line application written in c++ using openCV librar
 ![Image 1 - original image](https://images.squarespace-cdn.com/content/v1/5cc0708db10f257f085020f4/1567281805858-W839A0ZVYR9PU75HNQ86/ke17ZwdGBToddI8pDm48kL5vtkVmuF_TfVXAjoajrn8UqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKcGQLJLq7bbn0dtpDTIRzKAA4rdzrVEJ6L0zdRX09DaLA9JivhSPEF_ntuZ80V9KbO/change1.png?format=500w)
 Image 1 - original image
 
+<img align="left" width="100%" height="100%" src="https://images.squarespace-cdn.com/content/v1/5cc0708db10f257f085020f4/1567281805858-W839A0ZVYR9PU75HNQ86/ke17ZwdGBToddI8pDm48kL5vtkVmuF_TfVXAjoajrn8UqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKcGQLJLq7bbn0dtpDTIRzKAA4rdzrVEJ6L0zdRX09DaLA9JivhSPEF_ntuZ80V9KbO/change1.png?format=500w">
+
+
 ![image 2 - altered image](https://images.squarespace-cdn.com/content/v1/5cc0708db10f257f085020f4/1567281818366-YCG8DOC0JET2YLL1BDD6/ke17ZwdGBToddI8pDm48kL5vtkVmuF_TfVXAjoajrn8UqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKcGQLJLq7bbn0dtpDTIRzKAA4rdzrVEJ6L0zdRX09DaLA9JivhSPEF_ntuZ80V9KbO/change2.png?format=500w)
 Image 2 - altered image
 
