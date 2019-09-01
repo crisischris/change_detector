@@ -8,13 +8,13 @@ Image 1 - original image<br/>
 Image 2 - altered image<br/>
 ![desc](https://images.squarespace-cdn.com/content/v1/5cc0708db10f257f085020f4/1567281805858-W839A0ZVYR9PU75HNQ86/ke17ZwdGBToddI8pDm48kL5vtkVmuF_TfVXAjoajrn8UqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKcGQLJLq7bbn0dtpDTIRzKAA4rdzrVEJ6L0zdRX09DaLA9JivhSPEF_ntuZ80V9KbO/change1.png?format=500w)<br/>
 
+shell interaction - options between circling altered pixels or outlining altered pixels<br/>
 ![desc](https://images.squarespace-cdn.com/content/v1/5cc0708db10f257f085020f4/1567281843393-BX02FCLLHJEQ0WJKNMYT/ke17ZwdGBToddI8pDm48kOk3VU_UcLbPt6sKQHMr_0dZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZUJFbgE-7XRK3dMEBRBhUpzyVHtn17tsIdnXyw-8O1nIpxy9NNPl5kDovg0S2g8XAMYQnj_ossJClYK0z3vSWXw/shell1.png?format=750w)<br/>
 
-shell interaction - options between circling altered pixels or outlining altered pixels<br/>
-![desc](https://images.squarespace-cdn.com/content/v1/5cc0708db10f257f085020f4/1567281860476-LJ00LTIFMBB09GQFI6IP/ke17ZwdGBToddI8pDm48kEJ4cOHrRQS9U6zMyLLMlBsUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKcmad8uHYAF7-02Yclslrd79p8LOqe8r1XqsZNMHsW5qEE6Gv0YiTynNyofFZb7R3F/outline_1.png?format=750w)<br/>
 output image - written to user specified string location<br/>
+![desc](https://images.squarespace-cdn.com/content/v1/5cc0708db10f257f085020f4/1567281860476-LJ00LTIFMBB09GQFI6IP/ke17ZwdGBToddI8pDm48kEJ4cOHrRQS9U6zMyLLMlBsUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKcmad8uHYAF7-02Yclslrd79p8LOqe8r1XqsZNMHsW5qEE6Gv0YiTynNyofFZb7R3F/outline_1.png?format=750w)<br/>
 
-![desc](https://images.squarespace-cdn.com/content/v1/5cc0708db10f257f085020f4/1567281873321-6YHFH9ELJSU22MOHEF5D/ke17ZwdGBToddI8pDm48kHEbIFI6kGpWpDOyIBI-LOAUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKcLCzQuhcYAiGX__w1xbbJRezcaedCH3OjVpziJmLA9HtPyZ41nyiyiJV7_Euhk0qK/circlel_1.png?format=750w)<br/>
 image output of detection using cv::circle method<br/>
+![desc](https://images.squarespace-cdn.com/content/v1/5cc0708db10f257f085020f4/1567281873321-6YHFH9ELJSU22MOHEF5D/ke17ZwdGBToddI8pDm48kHEbIFI6kGpWpDOyIBI-LOAUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKcLCzQuhcYAiGX__w1xbbJRezcaedCH3OjVpziJmLA9HtPyZ41nyiyiJV7_Euhk0qK/circlel_1.png?format=750w)<br/>
 
 
