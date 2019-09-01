@@ -1,5 +1,5 @@
 # change_detector
-Change Detector is a command line application written in c++ using openCV library and Xcode.  Program is primarily for detecting minor alterations in (2) almost identical images.  I wrote this because I found myself in a situation where I needed to detect minor changes in my architectural drawings and was having major troubles distinguishing small changes.
+Change Detector is a command line application written in c++ using openCV library and Xcode.  Primarily for detecting minor alterations in (2) near identical images.  I wrote this because I found myself in a situation where I needed to detect minor changes in my architectural drawings and was having major troubles distinguishing small changes.
 
 
 Image 1 - original image<br/>
