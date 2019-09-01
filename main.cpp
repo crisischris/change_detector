@@ -90,8 +90,10 @@ This function compares the given images and logs a true of false string
 Mat IMG_compare(Mat image1, Mat image2)
 {
   std::vector<Point> differences;
+  std::vector<Point> hull;
+  Scalar red = Scalar(0,0,255);
 
-  int choice = helper::menu("Circle", "Outline");
+  int choice = helper::menu("Circle", "Outline", "Convex Hull");
   switch(choice)
   {
     case 1:
@@ -129,7 +131,7 @@ Mat IMG_compare(Mat image1, Mat image2)
       int size = differences.size();
       for(int i = 0; i < size; i++)
       {
-        circle(image2, differences[i], 50, Scalar(0,0,255));
+        circle(image2, differences[i], 50, red);
         differences.pop_back();
       }
           break;
@@ -174,6 +176,56 @@ Mat IMG_compare(Mat image1, Mat image2)
         image2.at<Vec3b>(differences[i]) = currPix;
         differences.pop_back();
       }
+      break;
+    }
+      
+    case 3:
+    {
+      //manipulate picture
+      for(int y=0; y<image1.rows; y++)
+      {
+        for(int x=0; x<image1.cols; x++)
+        {
+          Vec3b currPix1 = image1.at<Vec3b>(Point(x,y));
+          Vec3b currPix2 = image2.at<Vec3b>(Point(x,y));
+          
+          Point center = Point(x,y);
+          
+          if(currPix1 != currPix2)
+          {
+            if(!(currPix1[0]+10 > currPix2[0] && currPix1[0]-10 < currPix2[0]))
+            {
+              if(!(currPix1[1]+10 > currPix2[1] && currPix1[1]-10 < currPix2[1]))
+              {
+                if(!(currPix1[2]+10 > currPix2[1] && currPix1[2]-10 < currPix2[2]))
+                {
+                  //std::cout << currPix1 << " : " << currPix2 << std::endl;
+                  differences.push_back(center);
+                }
+              }
+            }
+          }
+        }
+      }
+      
+      
+//      fillConvexPoly(image2, differences, size, 0);
+     // fillConvexPoly(image2, differences, red);
+//      Rect box = boundingRect(differences);
+      convexHull(differences, hull);
+
+//      rectangle(image2, box[0], box[1], red);
+      int size = hull.size();
+      for(int i = 0; i < size; i++)
+      {
+        int next = i+1;
+        if(next == size)
+          next = 0;
+        line(image2, hull[i], hull[next], red);
+      }
+      
+      
+      
       break;
     }
   }
